@@ -1,0 +1,162 @@
+body{
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+
+#logo{
+float: left;
+height:150px;
+width:150px;
+padding-left: 10px;
+padding-top: 10px;
+
+}
+
+#social{
+  float:right;
+  padding-right: 5px;
+  padding-top: 5px;
+
+}
+
+#fb{
+  height:20px;
+  width:20px;
+}
+
+#yelp{
+  height:20px;
+  width:20px;
+}
+
+#tweet{
+  height:20px;
+  width:20px;
+}
+
+#insta{
+  height:20px;
+  width:20px;
+}
+
+
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  color: #178C03;
+  text-align: center;
+  text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+
+
+h4{
+font-family: 'Satisfy', cursive;
+font-size: 40px;
+color:white;
+text-align: center;
+}
+
+footer{
+  text-align: center;
+  color: black;
+}
+h5{
+  padding-left: 60px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:white;
+}
+#hours{
+  padding-left: 90px;
+}
+#article{
+  padding-left: 30px;
+}
+
+
+iframe{
+  padding-top: 20px;
+  padding-left: 20px;
+  align-items: center;
+}
+
+#container {
+	background-image: url(../img/paper.jpg);
+     opacity: .9;
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	border:solid 1px #000;
+	padding-top:1px;
+
+}
+
+#container2 {
+	background-color: #801515;
+     opacity: .9;
+	width: 60%;
+
+	height: auto;
+	margin: 0 auto;
+	padding-bottom:50px;
+	border:solid 1px #000;
+	padding-top:1px;
+
+}
+
+* {margin: 0; padding: 0;}
+
+
+
+nav{
+	word-spacing:1em;
+	text-align:center;
+	color:#384048;
+	font-size:1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight:500;
+	padding-top:10px;
+	}
+
+
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:visited{
+    color: black;
+    text-decoration: none;
+
+  }
+
+  a:hover{
+    color:grey;
+    text-decoration: none;
+    }
+
+  a:active{
+    color: black;
+    text-decoration: none;
+  }
+
+  .breadcrumbs{
+    position: fixed;
+    float:left;
+
+  }
+  #breadcrumbs{
+    color: white;
+
+  }

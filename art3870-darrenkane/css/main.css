@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Lucida Grande', helvetica, arial, sans-serif;
+	font-size: 12px;
+	background: #eff;
+	background-image: url(../img/background.gif);
+	padding-top:10px;
+
+
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+	font-size:3.8em;
+	color:#69C;
+	font-weight:bold;
+	text-align:center;
+}
+
+h2{
+	font-size:2.5em;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align:center;
+	margin-bottom:50px;
+}
+
+a {
+    color: #969;
+}
+
+#container {
+	background-color: #FFF;
+	width: 60%;
+
+	height: auto;
+	margin: 0 auto;
+	padding-bottom:50px;
+	border:solid 1px #000;
+	padding-top:1px;
+
+}
+
+* {margin: 0; padding: 0;}
+
+
+
+.navigation {
+	border-bottom:solid 1px;
+	border-top: solid 1px;
+	border-text: solid 1px;
+	color: #999;
+	font-family: Century "Century Gothic";
+	font-size:1em;
+	font-weight:200;
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:50px;
+	word-spacing:.3em;
+
+
+}
+
+#demo {
+	font-family: 'Raleway', cursive;
+	text-align:center;
+	font-size:1em;
+	font-weight:200;
+	padding-top:20px;
+}
+
+#mainphoto {
+	border: 0px solid #000;
+	border-radius: 100%;
+}
+
+#biotext{
+	font-family: 'Josefin Sans', sans-serif;
+	vertical-align: baseline;
+}
