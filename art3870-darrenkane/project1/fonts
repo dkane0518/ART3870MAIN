@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Anchor Bay Tattoos</title>
+  <meta name="description" content="Project 1 ">
+  <meta name="Author" content="Darren Kane ">
+
+  <link rel="stylesheet" href="../css/normalize.css" media="screen" title="no title">
+  <link rel="stylesheet" href="zurb5/css/foundation.css" media="screen" title="no title">
+  <!-- Important Owl stylesheet -->
+  <link rel="stylesheet" href="../owlcarousel/owl-carousel/owl.carousel.css">
+  <!-- Default Theme -->
+<link rel="stylesheet" href="../owlcarousel/owl-carousel/owl.theme.css">
+
+  <!-- my css -->
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Judson" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!--  jQuery 1.7+  -->
+  <script src="../owlcarousel/assets/js/jquery-1.9.1.min.js"></script>
+
+</head>
+
+<body>
+
+<h1>
+Ewert
+</h1>
+<h2>
+Playfair Display SC
+</h2>
+<h3>
+Judson
+</h3>
+
+
+
+
+
+  <script src="../owlcarousel/owl-carousel/owl.carousel.js"></script>
+
+  <script>
+  $(document).ready(function() {
+    $("#owl-carousel").owlCarousel({
+
+    navigation : true,
+    slideSpeed : 300,
+    paginationSpeed : 400,
+    singleItem : true,
+    autoPlay : true
+
+    // "singleItem:true" is a shortcut for:
+    // items : 1,
+    // itemsDesktop : false,
+    // itemsDesktopSmall : false,
+    // itemsTablet: false,
+    // itemsMobile : false
+
+    });
+  });
+  </script>
+
+</body>
+</html>

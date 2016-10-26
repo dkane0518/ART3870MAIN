@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Lucida Grande', helvetica, arial, sans-serif;
+	font-size: 12px;
+	background: #6bdcd2;
+	padding-top:10px;
+     background-image: url("../img/bg.png");
+     background-attachment: fixed;
+		background-size: cover;
+
+
+
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  color: #178C03;
+  text-align: center;
+  text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+h2{
+	font-size:2.5em;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align:center;
+	margin-bottom:50px;
+}
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+	color:#fff;
+}
+h4 {
+	color:#fff;
+}
+a {
+    color: #969;
+}
+
+#container {
+	background-image: url(../img/paper.jpg);
+     opacity: .9;
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	border:solid 1px #000;
+	padding-top:1px;
+
+}
+
+#container2 {
+	background-color: #6bdcd2;
+     opacity: .9;
+	width: 60%;
+
+	height: auto;
+	margin: 0 auto;
+	padding-bottom:50px;
+	border:solid 1px #000;
+	padding-top:1px;
+}
+
+#menu {
+	padding-left:30px;
+	padding-right:30px;
+}
+
+* {margin: 0; padding: 0;}
+
+
+
+nav{
+	word-spacing:1.0em;
+	text-align:center;
+	color:#384048;
+	font-size:1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight:500;
+	padding-top:10px;
+
+	}
+
+	ul {
+	list-style-type:none;
+
+	}
+
+li{
+	display:inline;
+	word-spacing:1.3em;
+	text-align:center;
+	color:#384048;
+	font-size:1.5em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	webkit-text-size-adjust:none;
+	}
+
+
+
+	a {
+	color:black;
+	}
+
+a:hover {
+    color: #9eabab;
+	font-weight:bold;
+	}
+
+	a:link {
+    text-decoration: none;
+}
+
+
+
+
+th, td {
+    padding: 15px;
+}
+#logo{
+height:150px;
+width:150px;
+padding-left: 10px;
+padding-top: 10px;
+
+}
+
+#social{
+  float:right;
+  padding-right: 20px;
+  padding-top: 20px;
+
+}
+#fb{
+  height:20px;
+  width:20px;
+}
+#yelp{
+  height:20px;
+  width:20px;
+}
+#tweet{
+  height:20px;
+  width:20px;
+}
+#insta{
+  height:20px;
+  width:20px;
+}
+
+  .breadcrumbs{
+    position: fixed;
+    float:left;
+
+  }
+  #breadcrumbs{
+    color: white;
+  }
+  h5{
+font-family: 'Satisfy', cursive;
+font-size: 40px;
+color:#fff;
+text-align: center;
+}
+span{
+  font-size: 16px;
+  text-align: center;
+}
